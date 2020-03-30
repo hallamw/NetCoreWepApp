@@ -20,6 +20,7 @@ namespace NetCoreWepApp.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Jenkins = "I got here from Jenkins";
             return View();
         }
 
